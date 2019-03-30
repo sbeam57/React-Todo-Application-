@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 10px;
+}
+
+.todo-list{
+    background-color: yellow;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #222;
+    padding: 30px;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 20px 0;
+    width: 70%;
+    border-bottom: 1px solid #222;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #33333;    
+}
+
+input[type = "checkbox"]{
+    margin-right: 10px;
+}
+
+.Header{
+    text-decoration: underline;
+    font-weight: 750;
+    font-size: 25px;
+    
+}
+
+.item-text{
+     border: none;
+     background-color: #3CBC8D;
+     color: yellow;
+}
+
+
+.topcorner{
+    position:absolute;
+    top:10px;
+    padding-bottom: 1px;
+    right: 10px;
+    padding-right: 175px;
+    font-family: Roboto, sans-serif;
+    font-weight: 750;
+    font-size: 15px;
+}
+
