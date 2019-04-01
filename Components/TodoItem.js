@@ -1,14 +1,15 @@
 import React from "react"
 
-// Components which for the checkbox and item name
+/*
+TodoItem(props)
+Description: Functional component used to display each item on the todo list 
+*/
 function TodoItem(props){
     const completedStyle ={
-        textDecoration: "line-through",
-        //textDecorationColor: "red"    
+        textDecoration: "line-through", 
     }   
     return(
-    // styling for the checkbox and item name
-    
+    // Checkbox and appropriate styling for Todo items with both completed and uncompleted status
     <div className = "todo-item">
     <input  
     type = "checkbox" 
@@ -22,12 +23,3 @@ function TodoItem(props){
 
 export default TodoItem
 
-/*<p>{props.item.theItem}  </p>
-****Code allowing users to manually enter an entry using a form****
-<div className = "todo-item">
-    <input type = "checkbox" />
-    <div className = "item-text">
-    <input type = "text" />
-    </div>
-    </div>
-*/
