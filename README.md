@@ -2,9 +2,16 @@
 This is just a simple Todo List application coded using the react framework
 
 This project was designed to teach concepts such as:
-    - Building class based and functional components with the React framework
-    - The importance state and its use cases
-    - Conditional rendering 
+    •   Building class based and functional components with the React framework
+    •	The importance state and its use cases
+    •	Conditional rendering 
+
+
+
+
+
+
+
 
 Note: The items on the todo list are hardcoded in and cannot be changed in this version 
 ******************************************************************************************
