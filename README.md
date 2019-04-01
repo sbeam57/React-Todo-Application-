@@ -1,6 +1,7 @@
 *****************************************************************************************
 
 This is just a simple Todo List application coded using the react framework<br/>
+
 This project was designed to teach concepts such as:<br/>
 • Building class based and functional components with the React framework<br/>
 • The importance state and its use cases<br/>
